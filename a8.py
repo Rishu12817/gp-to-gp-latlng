@@ -1,12 +1,6 @@
 import psycopg2
 import pandas as pd
 from datetime import datetime, timedelta
-import sys
-sys.path.append("..")
-import config
-
-import os
-import pandas as pd
 import requests
 import time
 import logging
@@ -14,15 +8,40 @@ import psycopg2
 import csv
 import os
 import sys
+from helper_functions import get_arg_value
 sys.path.append("..")
 import config
 from datetime import datetime
 
-# part 1
-# g_p_config = config.gp_config_stag
-g_p_config = config.gp_config
+
+
+env_var=get_arg_value("-e")
+
+if env_var == "prod":
+    g_p_config = config.gp_config
+    location_clusters_table = "location_clusters"
+    
+elif env_var == "dev":
+    g_p_config = config.gp_config
+    hit_limit = 10
+    location_clusters_table = "location_clusters_test"
+    # Hardcoding for debugging purposes
+    start_of_previous_day = '2023-12-08 00:00:00'
+    end_of_previous_day = '2024-12-15 00:00:00'
+
+elif env_var == "stag":
+    g_p_config = config.gp_config_stag
+    hit_limit = 5
+    location_clusters_table = "location_clusters"
+    # Hardcoding for debugging purposes
+    start_of_previous_day = '2023-12-08 00:00:00'
+    end_of_previous_day = '2024-12-15 00:00:00'
+else:
+    print("Invalid environment variable. Please provide either \n filename.py -e <environment_name> :'prod', 'dev' or'stag'.")
+    sys.exit(1)
 # print(g_p_config)
-hit_limit = 10
+
+
 
 today = datetime.today()
 previous_day = today - timedelta(days=1)
@@ -30,17 +49,27 @@ previous_day = today - timedelta(days=1)
 # Format the start and end of the previous day
 start_of_previous_day = previous_day.replace(hour=0, minute=0, second=0, microsecond=0)
 end_of_previous_day = previous_day.replace(hour=23, minute=59, second=59, microsecond=999999)
-# Hardcoding for debugging purposes
-start_of_previous_day = '2023-12-08 00:00:00'
-end_of_previous_day = '2024-12-15 00:00:00'
 
-print(f"Start of Previous Day: {start_of_previous_day}")
-print(f"End of Previous Day: {end_of_previous_day}")
 
 
 
 merged_data_table = "hhg_merged_data"
-location_clusters_table = "location_clusters_test"
+
+if env_var == "prod":
+    location_clusters_table = "location_clusters"
+
+if env_var == "dev":
+    location_clusters_table = "location_clusters_test"
+    start_of_previous_day = '2023-12-08 00:00:00'
+    end_of_previous_day = '2024-12-15 00:00:00'
+        
+if env_var == "stag":
+    location_clusters_table = "location_clusters"
+    start_of_previous_day = '2023-12-08 00:00:00'
+    end_of_previous_day = '2024-12-15 00:00:00'
+    
+print(f"Start of Previous Day: {start_of_previous_day}")
+print(f"End of Previous Day: {end_of_previous_day}")
 # location_clusters_table = "location_clusters"
 
 # Construct the query using f-strings
@@ -73,7 +102,7 @@ try:
         
     else:
         print(f"No data found for the range {start_of_previous_day} to {end_of_previous_day}.")
-        exit()
+        sys.exit(1)
 
 except Exception as error:
     print(f"Error fetching data: {error}")
@@ -86,7 +115,7 @@ finally:
 
 print("\n========================\nthis is the fetched data: \n\n",df,"\n================================")
 OUTPUT_FILE_PATH = "reversed_geocoding.csv"
-# exit()
+# sys.exit(1)
 # Constants for API and file paths
 API_KEY = os.getenv('GEOCODING_API_KEY', config.google_api_key)  # Replace with your new API key
 BASE_URL = 'https://maps.googleapis.com/maps/api/geocode/json'
@@ -98,7 +127,7 @@ if hit_limit: df = df.head(10)
 
 print(df,f"\n============ hits are limited to top {hit_limit} rows ====================")
 print(df.count(), "\n================================")
-exit()
+# sys.exit(1)
 
 
 print("Dataframe total to be process in count")
@@ -227,7 +256,7 @@ csv_file_path = OUTPUT_FILE_PATH
 # Check if the file exists
 if not os.path.exists(csv_file_path):
     print(f"Error: The file at {csv_file_path} does not exist.")
-    exit()
+    sys.exit(1)
 
 
 # Define the expected field names
