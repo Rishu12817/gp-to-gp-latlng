@@ -8,24 +8,26 @@ import psycopg2
 import csv
 import os
 import sys
-from helper_functions import get_arg_value
+from datetime import datetime, timedelta
+from common.helper_functions import get_arg_value
 sys.path.append("..")
 import config
-from datetime import datetime
-from datetime import datetime, timedelta
-import sys
-import time
 
 
-env_var=get_arg_value("-e")
+
+
+env_var = get_arg_value("-e")
+print(env_var)
+
+
+hit_limit = get_arg_value("-l")
 
 if env_var == "prod":
     g_p_config = config.gp_config
-    location_clusters_table = "location_clusters"
+    location_clusters_table = "location_clusters_3"
     
 elif env_var == "dev":
     g_p_config = config.gp_config
-    hit_limit = 10
     location_clusters_table = "location_clusters_test"
     # Hardcoding for debugging purposes
     start_of_previous_day = '2023-12-08 00:00:00'
@@ -39,7 +41,7 @@ elif env_var == "stag":
     start_of_previous_day = '2023-12-08 00:00:00'
     end_of_previous_day = '2024-12-15 00:00:00'
 else:
-    print("Invalid environment variable. Please provide either \n filename.py -e <environment_name> :'prod', 'dev' or'stag'.")
+    print("Invalid environment variable. Please provide either \n filename.py -e <environment_name> :'prod', 'dev' or'stag'. and -l for hit limit")
     sys.exit(1)
 # print(g_p_config)
 
@@ -51,7 +53,9 @@ previous_day = today - timedelta(days=1)
 # Format the start and end of the previous day
 start_of_previous_day = previous_day.replace(hour=0, minute=0, second=0, microsecond=0)
 end_of_previous_day = previous_day.replace(hour=23, minute=59, second=59, microsecond=999999)
- 
+
+
+
 
 merged_data_table = "hhg_merged_data"
 
@@ -123,12 +127,10 @@ BASE_URL = 'https://maps.googleapis.com/maps/api/geocode/json'
 REQUESTS_PER_SECOND = 40
 DELAY = 1 / REQUESTS_PER_SECOND
 
-if hit_limit: df = df.head(10)
-
-print(df,f"\n============ hits are limited to top {hit_limit} rows ====================")
-print(df.count(), "\n================================")
-# sys.exit(1)
-
+if hit_limit: 
+    df = df.head(hit_limit)
+    print(df,f"\n============ hits are limited to top {hit_limit} rows ====================")
+    print(df.count(), "\n================================")
 
 print("Dataframe total to be process in count")
 # Function to fetch location data from Google Geocoding API

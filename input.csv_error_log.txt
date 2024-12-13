@@ -1,0 +1,232 @@
+2024-12-13 14:45:13,335 - INFO - Loaded 19 rows from input.csv
+2024-12-13 14:45:13,335 - INFO - Processing row 1/19: Latitude 24.79999, Longitude 46.84999
+2024-12-13 14:45:13,787 - INFO - Status Code: 200
+2024-12-13 14:45:13,833 - ERROR - Failed to save data for row 1: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:13,833 - INFO - Processing row 2/19: Latitude 24.68411, Longitude 46.71079
+2024-12-13 14:45:14,186 - INFO - Status Code: 200
+2024-12-13 14:45:14,223 - ERROR - Failed to save data for row 2: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:14,223 - INFO - Processing row 3/19: Latitude 24.49307, Longitude 39.61241
+2024-12-13 14:45:14,896 - INFO - Status Code: 200
+2024-12-13 14:45:14,943 - ERROR - Failed to save data for row 3: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:14,943 - INFO - Processing row 4/19: Latitude 28.39314, Longitude 36.56533
+2024-12-13 14:45:15,623 - INFO - Status Code: 200
+2024-12-13 14:45:15,662 - ERROR - Failed to save data for row 4: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:15,665 - INFO - Processing row 5/19: Latitude 25.29541, Longitude 55.37902
+2024-12-13 14:45:15,937 - INFO - Status Code: 200
+2024-12-13 14:45:15,972 - ERROR - Failed to save data for row 5: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:15,972 - INFO - Processing row 6/19: Latitude 21.57825, Longitude 39.17433
+2024-12-13 14:45:16,337 - INFO - Status Code: 200
+2024-12-13 14:45:16,374 - ERROR - Failed to save data for row 6: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:16,374 - INFO - Processing row 7/19: Latitude 21.27514, Longitude 39.26401
+2024-12-13 14:45:16,683 - INFO - Status Code: 200
+2024-12-13 14:45:16,719 - ERROR - Failed to save data for row 7: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:16,722 - INFO - Processing row 8/19: Latitude 25.39412, Longitude 55.45618
+2024-12-13 14:45:17,021 - INFO - Status Code: 200
+2024-12-13 14:45:17,067 - ERROR - Failed to save data for row 8: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:17,069 - INFO - Processing row 9/19: Latitude 24.58463, Longitude 46.64478
+2024-12-13 14:45:17,406 - INFO - Status Code: 200
+2024-12-13 14:45:17,444 - ERROR - Failed to save data for row 9: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:17,444 - INFO - Processing row 10/19: Latitude 25.13018, Longitude 55.25228
+2024-12-13 14:45:17,777 - INFO - Status Code: 200
+2024-12-13 14:45:17,810 - ERROR - Failed to save data for row 10: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:17,810 - INFO - Processing row 11/19: Latitude 24.87363, Longitude 46.86487
+2024-12-13 14:45:18,181 - INFO - Status Code: 200
+2024-12-13 14:45:18,212 - ERROR - Failed to save data for row 11: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:18,212 - INFO - Processing row 12/19: Latitude 24.63631, Longitude 46.71381
+2024-12-13 14:45:18,518 - INFO - Status Code: 200
+2024-12-13 14:45:18,550 - ERROR - Failed to save data for row 12: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:18,550 - INFO - Processing row 13/19: Latitude 24.84592, Longitude 46.66836
+2024-12-13 14:45:18,841 - INFO - Status Code: 200
+2024-12-13 14:45:18,898 - ERROR - Failed to save data for row 13: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:18,898 - INFO - Processing row 14/19: Latitude 25.93923, Longitude 51.47411
+2024-12-13 14:45:19,190 - INFO - Status Code: 200
+2024-12-13 14:45:19,236 - ERROR - Failed to save data for row 14: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:19,240 - INFO - Processing row 15/19: Latitude 25.12464, Longitude 55.23333
+2024-12-13 14:45:19,911 - INFO - Status Code: 200
+2024-12-13 14:45:19,947 - ERROR - Failed to save data for row 15: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:19,950 - INFO - Processing row 16/19: Latitude 29.30987, Longitude 47.83053
+2024-12-13 14:45:20,265 - INFO - Status Code: 200
+2024-12-13 14:45:20,307 - ERROR - Failed to save data for row 16: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:20,307 - INFO - Processing row 17/19: Latitude 27.47842, Longitude 35.58852
+2024-12-13 14:45:20,621 - INFO - Status Code: 200
+2024-12-13 14:45:20,656 - ERROR - Failed to save data for row 17: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:20,657 - INFO - Processing row 18/19: Latitude 24.54623, Longitude 46.64778
+2024-12-13 14:45:21,050 - INFO - Status Code: 200
+2024-12-13 14:45:21,098 - ERROR - Failed to save data for row 18: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:21,098 - INFO - Processing row 19/19: Latitude 25.27129, Longitude 55.30692
+2024-12-13 14:45:21,383 - INFO - Status Code: 200
+2024-12-13 14:45:21,426 - ERROR - Failed to save data for row 19: Cannot save file into a non-existent directory: 'csv'
+2024-12-13 14:45:41,655 - INFO - Loaded 19 rows from input.csv
+2024-12-13 14:45:41,655 - INFO - Processing row 1/19: Latitude 24.79999, Longitude 46.84999
+2024-12-13 14:45:41,952 - INFO - Status Code: 200
+2024-12-13 14:45:41,999 - INFO - Row 1 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:41,999 - INFO - Processing row 2/19: Latitude 24.68411, Longitude 46.71079
+2024-12-13 14:45:42,306 - INFO - Status Code: 200
+2024-12-13 14:45:42,359 - INFO - Row 2 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:42,361 - INFO - Processing row 3/19: Latitude 24.49307, Longitude 39.61241
+2024-12-13 14:45:42,652 - INFO - Status Code: 200
+2024-12-13 14:45:42,695 - INFO - Row 3 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:42,697 - INFO - Processing row 4/19: Latitude 28.39314, Longitude 36.56533
+2024-12-13 14:45:42,983 - INFO - Status Code: 200
+2024-12-13 14:45:43,028 - INFO - Row 4 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:43,029 - INFO - Processing row 5/19: Latitude 25.29541, Longitude 55.37902
+2024-12-13 14:45:43,259 - INFO - Status Code: 200
+2024-12-13 14:45:43,299 - INFO - Row 5 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:43,299 - INFO - Processing row 6/19: Latitude 21.57825, Longitude 39.17433
+2024-12-13 14:45:43,595 - INFO - Status Code: 200
+2024-12-13 14:45:43,639 - INFO - Row 6 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:43,639 - INFO - Processing row 7/19: Latitude 21.27514, Longitude 39.26401
+2024-12-13 14:45:43,898 - INFO - Status Code: 200
+2024-12-13 14:45:43,930 - INFO - Row 7 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:43,930 - INFO - Processing row 8/19: Latitude 25.39412, Longitude 55.45618
+2024-12-13 14:45:44,492 - INFO - Status Code: 200
+2024-12-13 14:45:44,521 - INFO - Row 8 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:44,521 - INFO - Processing row 9/19: Latitude 24.58463, Longitude 46.64478
+2024-12-13 14:45:44,802 - INFO - Status Code: 200
+2024-12-13 14:45:44,845 - INFO - Row 9 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:44,847 - INFO - Processing row 10/19: Latitude 25.13018, Longitude 55.25228
+2024-12-13 14:45:45,101 - INFO - Status Code: 200
+2024-12-13 14:45:45,141 - INFO - Row 10 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:45,142 - INFO - Processing row 11/19: Latitude 24.87363, Longitude 46.86487
+2024-12-13 14:45:45,417 - INFO - Status Code: 200
+2024-12-13 14:45:45,450 - INFO - Row 11 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:45,456 - INFO - Processing row 12/19: Latitude 24.63631, Longitude 46.71381
+2024-12-13 14:45:46,024 - INFO - Status Code: 200
+2024-12-13 14:45:46,077 - INFO - Row 12 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:46,077 - INFO - Processing row 13/19: Latitude 24.84592, Longitude 46.66836
+2024-12-13 14:45:46,635 - INFO - Status Code: 200
+2024-12-13 14:45:46,670 - INFO - Row 13 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:46,670 - INFO - Processing row 14/19: Latitude 25.93923, Longitude 51.47411
+2024-12-13 14:45:46,857 - INFO - Status Code: 200
+2024-12-13 14:45:46,889 - INFO - Row 14 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:46,889 - INFO - Processing row 15/19: Latitude 25.12464, Longitude 55.23333
+2024-12-13 14:45:47,453 - INFO - Status Code: 200
+2024-12-13 14:45:47,488 - INFO - Row 15 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:47,489 - INFO - Processing row 16/19: Latitude 29.30987, Longitude 47.83053
+2024-12-13 14:45:48,071 - INFO - Status Code: 200
+2024-12-13 14:45:48,105 - INFO - Row 16 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:48,105 - INFO - Processing row 17/19: Latitude 27.47842, Longitude 35.58852
+2024-12-13 14:45:48,317 - INFO - Status Code: 200
+2024-12-13 14:45:48,346 - INFO - Row 17 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:48,347 - INFO - Processing row 18/19: Latitude 24.54623, Longitude 46.64778
+2024-12-13 14:45:48,903 - INFO - Status Code: 200
+2024-12-13 14:45:48,936 - INFO - Row 18 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:45:48,941 - INFO - Processing row 19/19: Latitude 25.27129, Longitude 55.30692
+2024-12-13 14:45:49,168 - INFO - Status Code: 200
+2024-12-13 14:45:49,198 - INFO - Row 19 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:35,223 - INFO - Loaded 19 rows from input.csv
+2024-12-13 14:46:35,223 - INFO - Processing row 1/19: Latitude 24.79999, Longitude 46.84999
+2024-12-13 14:46:35,495 - INFO - Status Code: 200
+2024-12-13 14:46:35,527 - INFO - Row 1 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:35,527 - INFO - Processing row 2/19: Latitude 24.68411, Longitude 46.71079
+2024-12-13 14:46:35,758 - INFO - Status Code: 200
+2024-12-13 14:46:35,792 - INFO - Row 2 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:35,792 - INFO - Processing row 3/19: Latitude 24.49307, Longitude 39.61241
+2024-12-13 14:46:36,030 - INFO - Status Code: 200
+2024-12-13 14:46:36,068 - INFO - Row 3 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:36,068 - INFO - Processing row 4/19: Latitude 28.39314, Longitude 36.56533
+2024-12-13 14:46:36,330 - INFO - Status Code: 200
+2024-12-13 14:46:36,360 - INFO - Row 4 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:36,360 - INFO - Processing row 5/19: Latitude 25.29541, Longitude 55.37902
+2024-12-13 14:46:36,923 - INFO - Status Code: 200
+2024-12-13 14:46:36,956 - INFO - Row 5 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:36,956 - INFO - Processing row 6/19: Latitude 21.57825, Longitude 39.17433
+2024-12-13 14:46:37,534 - INFO - Status Code: 200
+2024-12-13 14:46:37,576 - INFO - Row 6 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:37,576 - INFO - Processing row 7/19: Latitude 21.27514, Longitude 39.26401
+2024-12-13 14:46:37,846 - INFO - Status Code: 200
+2024-12-13 14:46:37,881 - INFO - Row 7 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:37,881 - INFO - Processing row 8/19: Latitude 25.39412, Longitude 55.45618
+2024-12-13 14:46:38,456 - INFO - Status Code: 200
+2024-12-13 14:46:38,503 - INFO - Row 8 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:38,503 - INFO - Processing row 9/19: Latitude 24.58463, Longitude 46.64478
+2024-12-13 14:46:38,761 - INFO - Status Code: 200
+2024-12-13 14:46:38,794 - INFO - Row 9 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:38,794 - INFO - Processing row 10/19: Latitude 25.13018, Longitude 55.25228
+2024-12-13 14:46:39,378 - INFO - Status Code: 200
+2024-12-13 14:46:39,416 - INFO - Row 10 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:39,416 - INFO - Processing row 11/19: Latitude 24.87363, Longitude 46.86487
+2024-12-13 14:46:39,710 - INFO - Status Code: 200
+2024-12-13 14:46:39,739 - INFO - Row 11 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:39,739 - INFO - Processing row 12/19: Latitude 24.63631, Longitude 46.71381
+2024-12-13 14:46:40,294 - INFO - Status Code: 200
+2024-12-13 14:46:40,332 - INFO - Row 12 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:40,332 - INFO - Processing row 13/19: Latitude 24.84592, Longitude 46.66836
+2024-12-13 14:46:40,911 - INFO - Status Code: 200
+2024-12-13 14:46:40,965 - INFO - Row 13 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:40,965 - INFO - Processing row 14/19: Latitude 25.93923, Longitude 51.47411
+2024-12-13 14:46:41,222 - INFO - Status Code: 200
+2024-12-13 14:46:41,264 - INFO - Row 14 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:41,264 - INFO - Processing row 15/19: Latitude 25.12464, Longitude 55.23333
+2024-12-13 14:46:41,842 - INFO - Status Code: 200
+2024-12-13 14:46:41,872 - INFO - Row 15 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:41,872 - INFO - Processing row 16/19: Latitude 29.30987, Longitude 47.83053
+2024-12-13 14:46:42,093 - INFO - Status Code: 200
+2024-12-13 14:46:42,130 - INFO - Row 16 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:42,130 - INFO - Processing row 17/19: Latitude 27.47842, Longitude 35.58852
+2024-12-13 14:46:42,344 - INFO - Status Code: 200
+2024-12-13 14:46:42,392 - INFO - Row 17 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:42,392 - INFO - Processing row 18/19: Latitude 24.54623, Longitude 46.64778
+2024-12-13 14:46:42,664 - INFO - Status Code: 200
+2024-12-13 14:46:42,706 - INFO - Row 18 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:46:42,706 - INFO - Processing row 19/19: Latitude 25.27129, Longitude 55.30692
+2024-12-13 14:46:42,924 - INFO - Status Code: 200
+2024-12-13 14:46:42,957 - INFO - Row 19 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:33,913 - INFO - Loaded 19 rows from input.csv
+2024-12-13 14:47:33,913 - INFO - Processing row 1/19: Latitude 24.79999, Longitude 46.84999
+2024-12-13 14:47:34,221 - INFO - Status Code: 200
+2024-12-13 14:47:34,258 - INFO - Row 1 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:34,258 - INFO - Processing row 2/19: Latitude 24.68411, Longitude 46.71079
+2024-12-13 14:47:34,510 - INFO - Status Code: 200
+2024-12-13 14:47:34,548 - INFO - Row 2 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:34,548 - INFO - Processing row 3/19: Latitude 24.49307, Longitude 39.61241
+2024-12-13 14:47:34,832 - INFO - Status Code: 200
+2024-12-13 14:47:34,860 - INFO - Row 3 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:34,860 - INFO - Processing row 4/19: Latitude 28.39314, Longitude 36.56533
+2024-12-13 14:47:35,288 - INFO - Status Code: 200
+2024-12-13 14:47:35,316 - INFO - Row 4 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:35,316 - INFO - Processing row 5/19: Latitude 25.29541, Longitude 55.37902
+2024-12-13 14:47:35,549 - INFO - Status Code: 200
+2024-12-13 14:47:35,587 - INFO - Row 5 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:35,587 - INFO - Processing row 6/19: Latitude 21.57825, Longitude 39.17433
+2024-12-13 14:47:36,222 - INFO - Status Code: 200
+2024-12-13 14:47:36,261 - INFO - Row 6 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:36,261 - INFO - Processing row 7/19: Latitude 21.27514, Longitude 39.26401
+2024-12-13 14:47:36,515 - INFO - Status Code: 200
+2024-12-13 14:47:36,544 - INFO - Row 7 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:36,544 - INFO - Processing row 8/19: Latitude 25.39412, Longitude 55.45618
+2024-12-13 14:47:36,813 - INFO - Status Code: 200
+2024-12-13 14:47:36,848 - INFO - Row 8 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:36,848 - INFO - Processing row 9/19: Latitude 24.58463, Longitude 46.64478
+2024-12-13 14:47:37,440 - INFO - Status Code: 200
+2024-12-13 14:47:37,477 - INFO - Row 9 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:37,479 - INFO - Processing row 10/19: Latitude 25.13018, Longitude 55.25228
+2024-12-13 14:47:37,732 - INFO - Status Code: 200
+2024-12-13 14:47:37,768 - INFO - Row 10 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:37,768 - INFO - Processing row 11/19: Latitude 24.87363, Longitude 46.86487
+2024-12-13 14:47:38,064 - INFO - Status Code: 200
+2024-12-13 14:47:38,102 - INFO - Row 11 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:38,102 - INFO - Processing row 12/19: Latitude 24.63631, Longitude 46.71381
+2024-12-13 14:47:38,407 - INFO - Status Code: 200
+2024-12-13 14:47:38,440 - INFO - Row 12 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:38,440 - INFO - Processing row 13/19: Latitude 24.84592, Longitude 46.66836
+2024-12-13 14:47:38,713 - INFO - Status Code: 200
+2024-12-13 14:47:38,745 - INFO - Row 13 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:38,745 - INFO - Processing row 14/19: Latitude 25.93923, Longitude 51.47411
+2024-12-13 14:47:38,962 - INFO - Status Code: 200
+2024-12-13 14:47:39,011 - INFO - Row 14 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:39,016 - INFO - Processing row 15/19: Latitude 25.12464, Longitude 55.23333
+2024-12-13 14:47:39,291 - INFO - Status Code: 200
+2024-12-13 14:47:39,324 - INFO - Row 15 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:39,324 - INFO - Processing row 16/19: Latitude 29.30987, Longitude 47.83053
+2024-12-13 14:47:39,844 - INFO - Status Code: 200
+2024-12-13 14:47:39,873 - INFO - Row 16 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:39,877 - INFO - Processing row 17/19: Latitude 27.47842, Longitude 35.58852
+2024-12-13 14:47:40,063 - INFO - Status Code: 200
+2024-12-13 14:47:40,100 - INFO - Row 17 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:40,100 - INFO - Processing row 18/19: Latitude 24.54623, Longitude 46.64778
+2024-12-13 14:47:40,409 - INFO - Status Code: 200
+2024-12-13 14:47:40,449 - INFO - Row 18 data saved to csv/reversed_geocoding_input.csv.csv
+2024-12-13 14:47:40,449 - INFO - Processing row 19/19: Latitude 25.27129, Longitude 55.30692
+2024-12-13 14:47:40,710 - INFO - Status Code: 200
+2024-12-13 14:47:40,743 - INFO - Row 19 data saved to csv/reversed_geocoding_input.csv.csv
